@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* max-height: 355px; */
+}
+
+.rightSideBox {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.login {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  row-gap: 1em;
+}
